@@ -5,8 +5,9 @@ string = "Now I need a drink, alcoholic of course, after the heavy lectures invo
 result = string.replace("," , "").replace("." , "").split()
 
 result.sort(key=len)
+result.reverse()
 
-
+print(result)
 
 
 
