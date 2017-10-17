@@ -8,6 +8,3 @@ result.sort(key=len)
 result.reverse()
 
 print(result)
-
-
-
